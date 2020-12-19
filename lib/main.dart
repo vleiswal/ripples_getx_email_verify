@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
                     } else {
                       Get.snackbar(
                         'Incorrect Format',
-                        'Provide a valid email address',
+                        'Please provide a valid email address',
                         colorText: Colors.white,
                         backgroundColor: Colors.red,
                         snackPosition: SnackPosition.BOTTOM,
